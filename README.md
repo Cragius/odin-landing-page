@@ -1,0 +1,1 @@
+This is a fake webpage which I made to complete the CSS part of The Odin Project's Foundations course.
