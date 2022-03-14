@@ -1,4 +1,133 @@
+/* parent div of other major page elements such as header */
+body {
+    font-family: Robota, sans-serif;
+}
 .page {
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    width: 200px;
+    padding: 12px;
+    margin-left: 116px;
+}
+
+.header-links {
+    gap: 36px;
+    padding: 12px;
+    margin-right: 116px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    height: 400px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 128px;
+    padding-right: 128px;;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    align-items: left;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.hero-right {
+    flex: 1 1;
+    width: 40%;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    /* border: 3px;
+    border-color: #F9FAF8; */
+    height: 30vh;
+}
+
+button {
+    width: 96px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 1;
+}
+
+.info {
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.quote {
+    height: 600px;
+    flex-shrink: 0;
+    background-color: #E5E7EB;
+}
+
+.quote-main {
+
+}
+
+.quote-author {
+
+}
+
+.action {
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.footer {
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
 }
