@@ -68,10 +68,15 @@ body {
     color: #E5E7EB;
 }
 
-img {
-    /* border: 3px;
-    border-color: #F9FAF8; */
-    height: 30vh;
+.hero-right-img {
+    border: 3px solid #F0FaF8;
+    width: 25vw;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1 1;
 }
 
 .hero-button {
@@ -89,7 +94,57 @@ img {
 .info {
     height: 500px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
 }
+
+.info-title {
+    margin-top: 48px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.info-card-one,
+.info-card-two,
+.info-card-three,
+.info-card-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.info-card-one-text,
+.info-card-two-text,
+.info-card-three-text,
+.info-card-four-text {
+    display: flex;
+    flex-direction: column;
+    color: #65676B;
+    text-align: center;
+    margin: 20px;
+}
+
+.info-card-one-img,
+.info-card-two-img,
+.info-card-three-img,
+.info-card-four-img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 192px;
+    height: auto;
+} 
 
 .quote {
     height: 400px;
